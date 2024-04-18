@@ -39,7 +39,7 @@ body {
 }
 
 .parent-div-flower {
-  --custom-width2: 50vw;
+  --custom-width2: 40vw;
   --design-width2: 1080;
   --ratio2: calc(var(--custom-width2) / var(--design-width2));
   position: relative;
@@ -49,6 +49,12 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  border-radius: 50px;
+}
+@media screen and (max-width: 768px) {
+  .parent-div-flower {
+    --custom-width2: 60vw;
+  }
 }
 .frame-4174-1-871410 {
   width: 100%;

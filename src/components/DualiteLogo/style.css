@@ -40,7 +40,7 @@ body {
   padding: 0px;
 }
 .parent-div {
-  --custom-width: 50vw;
+  --custom-width: 40vw;
   --design-width: 1920;
   --ratio: calc(var(--custom-width) / var(--design-width));
   position: relative;
@@ -50,6 +50,12 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  border-radius: 50px;
+}
+@media screen and (max-width: 768px) {
+  .parent-div {
+    --custom-width: 60vw;
+  }
 }
 .dualite-1-423065 {
   width: 100%;

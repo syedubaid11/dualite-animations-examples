@@ -1,6 +1,8 @@
 import "./App.css";
 import DualiteLogoAnim from "./components/DualiteLogo/DualiteLogoAnim.jsx";
 import Flower from "./components/Flower/Flower.jsx";
+import CubeBg from "./components/CoolCubeBg/CubeBg.jsx";
+import Loader from "./components/Loader/Loader.jsx";
 
 function App() {
   return (
@@ -15,21 +17,28 @@ function App() {
           justifyContent: "center",
           alignItems: "center",
           flexDirection: "column",
-          gap: "2rem",
+          gap: "0.5rem",
         }}
       >
+        <br />
+        <h2>Dualite Logo Animation</h2>
         <DualiteLogoAnim />
 
-        <Flower />
-      </div>
+        <br />
 
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      ></div>
+        <h2>Flower Animation</h2>
+        <Flower />
+
+        <br />
+
+        <h2>Cool Cube Background Animation</h2>
+        <CubeBg />
+
+        <br />
+
+        <h2>Loader Animation</h2>
+        <Loader />
+      </div>
     </>
   );
 }
