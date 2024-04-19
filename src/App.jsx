@@ -3,6 +3,7 @@ import DualiteLogoAnim from "./components/DualiteLogo/DualiteLogoAnim.jsx";
 import Flower from "./components/Flower/Flower.jsx";
 import CubeBg from "./components/CoolCubeBg/CubeBg.jsx";
 import Loader from "./components/Loader/Loader.jsx";
+import HeroDragSection from "./components/HeroDragSection/HeroDragSection.jsx";
 
 function App() {
   return (
@@ -36,8 +37,14 @@ function App() {
 
         <br />
 
+        <h2>Drag Hero Animation</h2>
+        <HeroDragSection />
+
+        <br />
+
         <h2>Loader Animation</h2>
         <Loader />
+        <br />
       </div>
     </>
   );
