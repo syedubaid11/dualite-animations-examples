@@ -5,6 +5,7 @@ import CubeBg from "./components/CoolCubeBg/CubeBg.jsx";
 import Loader from "./components/Loader/Loader.jsx";
 import HeroDragSection from "./components/HeroDragSection/HeroDragSection.jsx";
 import RoboLoader from "./components/RoboLoader/RoboLoader.jsx";
+import TTLoader from "./components/TTloader.jsx/tt.jsx";
 
 function App() {
   return (
@@ -70,13 +71,23 @@ function App() {
 
         <h2>Loader Animation</h2>
         <Loader />
+
+        <br />
+
+        <h2>Table Tenis Loader Animation</h2>
+        <TTLoader />
+
         <br />
 
         <footer>
           <hr />
           <p>
             All source codes are available on{" "}
-            <a href="https://github.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/dualiteindia/dualite-animations-examples"
+              target="_blank"
+              rel="noreferrer"
+            >
               GitHub
             </a>
           </p>
