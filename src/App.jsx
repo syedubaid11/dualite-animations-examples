@@ -4,13 +4,35 @@ import Flower from "./components/Flower/Flower.jsx";
 import CubeBg from "./components/CoolCubeBg/CubeBg.jsx";
 import Loader from "./components/Loader/Loader.jsx";
 import HeroDragSection from "./components/HeroDragSection/HeroDragSection.jsx";
+import RoboLoader from "./components/RoboLoader/RoboLoader.jsx";
 
 function App() {
   return (
     <>
       <h1>Dualite Animations Examples</h1>
-      <p className="read-the-docs">
-        Here are some sample animations created using the Dualite Figma Plugin
+      <p
+        className="read-the-docs"
+        style={{
+          textAlign: "center",
+          fontSize: "1.2rem",
+        }}
+      >
+        Here are some sample animations created using the Dualite Figma Plugin.
+        <br />
+        The designs were taken from Figma Community, thanks to all the
+        individual creators.
+        <br />
+        <br />
+        To convert your Figma designs to Resuseable & Interactive <br />
+        React components, check out the&nbsp;
+        <a
+          href="https://bit.ly/DUALITE?utm_source=animSamples"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Dualite Figma Plugin
+        </a>
+        .
       </p>
       <div
         style={{
@@ -42,9 +64,29 @@ function App() {
 
         <br />
 
+        <h2>Robo Loader Animation</h2>
+        <RoboLoader />
+        <br />
+
         <h2>Loader Animation</h2>
         <Loader />
         <br />
+
+        <footer>
+          <hr />
+          <p>
+            All source codes are available on{" "}
+            <a href="https://github.com" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+          </p>
+          <p>
+            Made with ❤️ by{" "}
+            <a href="https://dualite.dev" target="_blank" rel="noreferrer">
+              Dualite
+            </a>
+          </p>
+        </footer>
       </div>
     </>
   );

@@ -1,9 +1,24 @@
-# React + Vite
+# Dualite Animation Samples
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Deployed at: https://dualite-animation-samples.vercel.app/
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# dualite-animations-examples
+- React Components
+- No dependencies for the animations
+- Plain vanilla CSS styling and KeyFrames animations.
+- Responsive design ( % based )
+
+## Builing your own animations
+
+- Visit dualite.dev and install our Figma plugin.
+- Create your animations in Figma. ( OR get it from the community )
+- Export the animations as HTML/CSS or React components.
+- Copy the code and paste it in your project.
+- Yayy! You have your animations ready.
+
+## Support Us
+
+- Star this repository
+- Explore & Share our main plugin https://bit.ly/DUALITE
+- Follow us on Twitter: https://twitter.com/dualitedev
