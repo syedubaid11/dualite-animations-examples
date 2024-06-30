@@ -6,6 +6,9 @@ import Loader from "./components/Loader/Loader.jsx";
 import HeroDragSection from "./components/HeroDragSection/HeroDragSection.jsx";
 import RoboLoader from "./components/RoboLoader/RoboLoader.jsx";
 import TTLoader from "./components/TTloader.jsx/tt.jsx";
+import { default as StairwayToHeaven } from "./components/StairwayToHeaven/Component.jsx";
+import { default as NikeCard } from "./components/NikeCard/Component";
+import { default as TestimonialCard } from "./components/TestimonialCard/Component";
 
 function App() {
   return (
@@ -20,17 +23,12 @@ function App() {
       >
         Here are some sample animations created using the Dualite Figma Plugin.
         <br />
-        The designs were taken from Figma Community, thanks to all the
-        individual creators.
+        The designs were taken from Figma Community, thanks to all the individual creators.
         <br />
         <br />
         To convert your Figma designs to Resuseable & Interactive <br />
         React components, check out the&nbsp;
-        <a
-          href="https://bit.ly/DUALITE?utm_source=animSamples"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://bit.ly/DUALITE?utm_source=animSamples" target="_blank" rel="noreferrer">
           Dualite Figma Plugin
         </a>
         .
@@ -44,6 +42,21 @@ function App() {
           gap: "0.5rem",
         }}
       >
+        <h2>Nike Card</h2>
+        <NikeCard width={300} />
+
+        <br />
+
+        <h2>Testimonial Card</h2>
+        <TestimonialCard width={500} />
+
+        <br />
+
+        <h2>Stairway to Heaven Animation</h2>
+        <StairwayToHeaven />
+
+        <br />
+
         <br />
         <h2>Dualite Logo Animation</h2>
         <DualiteLogoAnim />
@@ -83,11 +96,7 @@ function App() {
           <hr />
           <p>
             All source codes are available on{" "}
-            <a
-              href="https://github.com/dualiteindia/dualite-animations-examples"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://github.com/dualiteindia/dualite-animations-examples" target="_blank" rel="noreferrer">
               GitHub
             </a>
           </p>
