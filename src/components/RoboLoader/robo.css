@@ -1,5 +1,5 @@
 .parent-div-robo {
-  --custom-width: min(670px, 100vw);
+  --custom-width: 350px;
   --design-width: 670;
   --ratio: calc(var(--custom-width) / var(--design-width));
   position: relative;

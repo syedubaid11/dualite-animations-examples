@@ -35,7 +35,7 @@ const Component = ({
     >
       <div className=" absolute w-[100%] h-[100%] top-[0%] left-[0%] opacity-[1] z-[1]  rotate-[0deg]   overflow-hidden bg-[#ffffffff]  ">
         {/* Frame 381 */}
-        <section className=" absolute w-[56.3%] h-[60.13%] top-[21.57%] left-[21.85%] opacity-[1] z-[0]  rotate-[0deg]   rounded-tl-[31.868444442749023px] rounded-tr-[31.868444442749023px] rounded-br-[31.868444442749023px] rounded-bl-[31.868444442749023px] bg-[#3e66dfff] shadow-[19.917774200439453px_7.967111110687256px_79.67109680175781px_0px_rgba(0,0,0,0.1599999964237213)]  ">
+        <section className=" absolute w-[66.3%] h-[72.13%] top-[14.57%] left-[16.85%] opacity-[1] z-[0]  rotate-[0deg]   rounded-tl-[31.868444442749023px] rounded-tr-[31.868444442749023px] rounded-br-[31.868444442749023px] rounded-bl-[31.868444442749023px] bg-[#3e66dfff] shadow-[19.917774200439453px_7.967111110687256px_79.67109680175781px_0px_rgba(0,0,0,0.1599999964237213)]  ">
           <div className=" absolute w-[44.08%] h-[24.39%] top-[12.27%] left-[27.96%] opacity-[1] z-[0]  rotate-[0deg]    ">
             <div className=" absolute w-[59.6%] h-[100%] top-[0%] left-[20.15%] opacity-[1] z-[1]  rotate-[0deg]   overflow-hidden rounded-full box-border border-l-[3.9765846729278564px] border-l-[#ffffffff] border-r-[3.9765846729278564px] border-r-[#ffffffff] border-t-[3.9765846729278564px] border-t-[#ffffffff] border-b-[3.9765846729278564px] border-b-[#ffffffff] shadow-[0px_15.906338691711426px_15.906338691711426px_0px_rgba(0,0,0,0.07999999821186066)]  ">
               <img

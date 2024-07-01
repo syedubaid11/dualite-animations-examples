@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+
 /* Default classes */
 .pos-abs {
   position: absolute;
@@ -124,7 +126,8 @@
   z-index: 0;
   transform: rotate(0deg);
   overflow: hidden;
-  border-radius: 84.58659362792969px 84.58659362792969px 84.58659362792969px 84.58659362792969px;
+  border-radius: 84.58659362792969px 84.58659362792969px 84.58659362792969px
+    84.58659362792969px;
   background: #222222ff;
 }
 .instagramvector-11101520 {
@@ -174,7 +177,8 @@
   z-index: 1;
   transform: rotate(0deg);
   overflow: hidden;
-  border-radius: 84.58659362792969px 84.58659362792969px 84.58659362792969px 84.58659362792969px;
+  border-radius: 84.58659362792969px 84.58659362792969px 84.58659362792969px
+    84.58659362792969px;
   background: #222222ff;
 }
 .nodeBg-11101524 {
@@ -200,7 +204,8 @@
   z-index: 2;
   transform: rotate(0deg);
   overflow: hidden;
-  border-radius: 84.58659362792969px 84.58659362792969px 84.58659362792969px 84.58659362792969px;
+  border-radius: 84.58659362792969px 84.58659362792969px 84.58659362792969px
+    84.58659362792969px;
   background: #222222ff;
 }
 .nodeBg-11101526 {
@@ -431,7 +436,8 @@
   opacity: 1;
   z-index: 2;
   transform: rotate(0deg);
-  border-radius: 7.311110973358154px 7.311110973358154px 7.311110973358154px 7.311110973358154px;
+  border-radius: 7.311110973358154px 7.311110973358154px 7.311110973358154px
+    7.311110973358154px;
   box-sizing: border-box;
   border-left: 3.655555486679077px solid #ffffffff;
   border-right: 3.655555486679077px solid #ffffffff;

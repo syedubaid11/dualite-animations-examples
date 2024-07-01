@@ -14,48 +14,21 @@ import { default as MovieCardsStack } from "./components/MovieCardsStack/Compone
 
 function App() {
   return (
-    <>
-      <h1>Dualite Animations Examples</h1>
-      <p
-        className="read-the-docs"
-        style={{
-          textAlign: "center",
-          fontSize: "1.2rem",
-        }}
-      >
-        Here are some sample animations created using the Dualite Figma Plugin.
-        <br />
-        The designs were taken from Figma Community, thanks to all the individual creators.
-        <br />
-        <br />
-        To convert your Figma designs to Resuseable & Interactive <br />
-        React components, check out the&nbsp;
-        <a href="https://bit.ly/DUALITE?utm_source=animSamples" target="_blank" rel="noreferrer">
-          Dualite Figma Plugin
-        </a>
-        .
-      </p>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          flexDirection: "column",
-          gap: "0.5rem",
-        }}
-      >
-        <h2>Nike Carosel</h2>
-        <NikeCarousel width={400} />
+    <div className="w-[100vw] overflow-x-hidden flex flex-col items-center justify-center align-center text-center gap-4 mt-5">
+      <h2 className="font-bold text-xl">Dualite Examples</h2>
+      <div className="w-[100%] flex flex-col gap-3 items-center justify-center align-center text-center">
+        <h2>Carousel</h2>
+        <NikeCarousel width={350} />
 
         <br />
 
         <h2>Nike Card</h2>
-        <NikeCard width={400} />
+        <NikeCard width={350} />
 
         <br />
 
         <h2>Testimonial Card</h2>
-        <TestimonialCard width={500} />
+        <TestimonialCard width={350} />
 
         <br />
 
@@ -90,17 +63,17 @@ function App() {
 
         <br />
 
-        <h2>Robo Loader Animation</h2>
+        {/* <h2>Robo Loader Animation</h2>
         <RoboLoader />
-        <br />
+        <br /> */}
 
         <h2>Loader Animation</h2>
         <Loader />
 
-        <br />
+        {/* <br />
 
         <h2>Table Tenis Loader Animation</h2>
-        <TTLoader />
+        <TTLoader /> */}
 
         <br />
 
@@ -108,7 +81,11 @@ function App() {
           <hr />
           <p>
             All source codes are available on{" "}
-            <a href="https://github.com/dualiteindia/dualite-animations-examples" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/dualiteindia/dualite-animations-examples"
+              target="_blank"
+              rel="noreferrer"
+            >
               GitHub
             </a>
           </p>
@@ -120,7 +97,7 @@ function App() {
           </p>
         </footer>
       </div>
-    </>
+    </div>
   );
 }
 
