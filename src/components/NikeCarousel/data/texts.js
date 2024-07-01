@@ -1,0 +1,1 @@
+const texts = {text1: `NIKE`, text2: `Nike air max 90`, text3: `Add to cart`, text4: `$97.70`, text5: `$110`}; export default texts;

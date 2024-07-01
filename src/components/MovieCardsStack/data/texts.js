@@ -1,0 +1,1 @@
+const texts = {text1: `Movies Near You`, text2: `Chandu Champion`, text3: `2h 23m•Biography,Drama,Sports`, text4: `Paradise`, text5: `1h 35m• Drama, Romatic`, text6: `Kalki 2898 AD`, text7: `3h 01m•Action,Si-Fi`, text8: `Previous`, text9: `Next`}; export default texts;

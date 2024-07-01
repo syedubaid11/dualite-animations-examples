@@ -9,6 +9,8 @@ import TTLoader from "./components/TTloader.jsx/tt.jsx";
 import { default as StairwayToHeaven } from "./components/StairwayToHeaven/Component.jsx";
 import { default as NikeCard } from "./components/NikeCard/Component";
 import { default as TestimonialCard } from "./components/TestimonialCard/Component";
+import { default as NikeCarousel } from "./components/NikeCarousel/Component.jsx";
+import { default as MovieCardsStack } from "./components/MovieCardsStack/Component.jsx";
 
 function App() {
   return (
@@ -42,8 +44,13 @@ function App() {
           gap: "0.5rem",
         }}
       >
+        <h2>Nike Carosel</h2>
+        <NikeCarousel width={350} />
+
+        <br />
+
         <h2>Nike Card</h2>
-        <NikeCard width={300} />
+        <NikeCard width={350} />
 
         <br />
 
@@ -53,7 +60,12 @@ function App() {
         <br />
 
         <h2>Stairway to Heaven Animation</h2>
-        <StairwayToHeaven />
+        <StairwayToHeaven width={350} />
+
+        <br />
+
+        <h2>Movie Cards Stack</h2>
+        <MovieCardsStack width={300} />
 
         <br />
 
