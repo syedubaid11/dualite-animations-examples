@@ -6,10 +6,10 @@
   They're active for 10-15 days only. You should replace them with the actual images before using the code in production.
 */
 .parent-div-hero-drag {
-  --image-0: url("https://s3-alpha-sig.figma.com/img/07cc/8e49/37ba18bcf5c5f6652b325164b8d3c29d?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=imwKMfLuxkG~RevgsIHMcdbha8ZDXhbf66-yazWM4vP729GzGi3pjof03r7ruYGz1KCWLVbsJ0ernb~xKg7RLCiYoIxKi-msHRUrHNLCMn0IG~89yPhkKEpj~Cs62b1zeBnrA2DZ4-ilECopA7WkS-vVMFXR16ckBWRe8mFBCcDAjKz5f4Fb06lXL4RPb2SDxQBGfEKlLNh37eCTtuvrcHqEH2QwJZ5bF7t5GW7KZGZGBz206cecgPK2QKroNAtaMMvaStNuEGpK25t6oWd10F9FD8ZNtX91cYd2376O10Rfmgn~2ytTY6eb4K2JlhtsYbp3rZ7tGbWVTf3xVaLiHA__");
-  --image-1: url("https://s3-alpha-sig.figma.com/img/8eb1/4c51/bb9bc1048bb846ef47cfdafe0c4c2430?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CyCwJjIOmPE~l5Fq0uWH~uFyVEaOjHdswL5dwT3-TtAWMLIjTK2TvvK~Krk9-csPY3bdk6eKg14MMB8qMz1KIs0ffqz~dD-p0L7K6Uqjk4vOsrJlHhKfXQlkupQ5Wk4JdDOsOAqj7o47-gUw8WOUvol3~Ey~2Lt3SAAVE2tuoy4Zp3hFltOJWCr9HiEDYLnNn~ROl6dMYA3IyeuHzJ~UYrcOSDxHUzH5PtkiBtPp3VqP3y7QPy5hT9qTWjS6saobaPypXCK1avhyAjFBWivu0SP1~JyZTCD-GRqMUkfD642UPhy2Hxsk8a24GZ40OuizPLTDr4jQ2rtJoYvbv8v-mg__");
-  --image-2: url("https://s3-alpha-sig.figma.com/img/6154/8e88/ff22e542880588fde6f634934acc87dc?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=njvpZJgb5eM87V2brBOQOI6TXhhvnPgI1omZ58OPiCsslXCUg4wUT0-Bm2o9vOFH335ah3CC7nkboF1KGhbYYrW5CKd7XCnbkRlxpkbql4Yxe4EGxVBBFjeBUV9Yb9b6isx~PfO-wk3TGYvMDKvBHired4WP~G9qvkpXblcs33PtPPpbilqOch5h2XGyvoxOPFbhcTykpiHyR7wLYVz3wWqiZUXc~aY04~0P0a34MygZDBbgW4jyM-JMFpG6qs-JICuKG8njRVPXQVB9ljxtUIaLQZdCWNEcYcM0HYQKF5H08pkiza20BztGSlteUxgKdEUORN0dCRAqh-4koitUzQ__");
-  --image-3: url("https://s3-alpha-sig.figma.com/img/083e/a727/3b01bbeffef9c584b7d71e5613e008d8?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VQ1ZpUlv8D4Ndwx4gUIE-6OATEcrQIRYYwcG~p1zxS2rtEhQOzmnlTAA-fOkELzW4vHXzK9ztSq6DzvkRt1Znr5moEipig5dAI1HHPjJ2VD6PrF4MvVBK1dEm2eqws0LGqXNSrVuLOtkWMlnR81HnKwLYK32ILfwHLEmVyo6-BRAe1bli2UXiB2-wb7VHVLp502l3q8YY9rx6kLFpbPGMcFF5P-cS94kX~bUPhNKrloFaOBdO3KdcMJzoJsVqEZRJ-Gynpga-0W2MxuZFnTPDsFiuDO0EH8zRDq0zsh0-Rlb5H9SZIkcgqTGdu3RKtXdMho4QAauiycYKVNySfce0g__");
+  --image-0: url("../../assets/bali2.jpg");
+  --image-1: url("../../assets/bali4.jpg");
+  --image-2: url("../../assets/bali.jpg");
+  --image-3: url("../../assets/bali3.jpg");
   --custom-width: 50vw;
   --design-width: 1440;
   --ratio: calc(var(--custom-width) / var(--design-width));

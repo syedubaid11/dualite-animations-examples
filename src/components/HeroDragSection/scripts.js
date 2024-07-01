@@ -1,6 +1,6 @@
 function runAnimations() {
-  document.querySelector("#id-73").draggable = true;
-  document.querySelector("#id-73").addEventListener("dragstart", func_73_725);
+  // document.querySelector("#id-73").draggable = true;
+  document.querySelector("#id-716").addEventListener("click", func_73_725);
 
   function func_73_725(e) {
     e.stopPropagation();
@@ -57,15 +57,11 @@ function runAnimations() {
     document
       .querySelector("#id-712 > div:first-child")
       .classList.add("bgClass-729");
-    document
-      .querySelector("#id-73")
-      .removeEventListener("dragstart", func_73_725);
+    document.querySelector("#id-716").removeEventListener("click", func_73_725);
 
     setTimeout(() => {
-      document.querySelector("#id-73").draggable = true;
-      document
-        .querySelector("#id-73")
-        .addEventListener("dragstart", func_73_73);
+      // document.querySelector("#id-73").draggable = true;
+      document.querySelector("#id-719").addEventListener("click", func_73_73);
     }, 100);
   }
 
@@ -115,9 +111,7 @@ function runAnimations() {
     document
       .querySelector("#id-712 > div:first-child")
       .classList.add("bgClass-712");
-    document
-      .querySelector("#id-73")
-      .removeEventListener("dragstart", func_73_73);
+    document.querySelector("#id-719").removeEventListener("click", func_73_73);
 
     setTimeout(() => {
       //loop login

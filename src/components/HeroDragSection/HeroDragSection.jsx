@@ -43,13 +43,16 @@ const HeroDragSection = () => {
         <div className="balis-charm-lie-1-44376 pos-abs" id="id-719">
           <span className="balis-charm-lie-1-44376-0">
             {
-              "Bali's charm lies in its diverse landscapes, from terraced rice fields to volcanic mountains, providing breathtaking vistas at every turn. Its vibrant culture, warm hospitality, and delicious cuisine make it a destination that leaves a lasting impression. Whether you seek relaxation, adventure, or cultural immersion, Bali has it all."
+              "Bali's charm lies in its diverse landscapes, from terraced rice fields to volcanic mountains, providing breathtaking vistas at every turn. Its vibrant culture, warm hospitality, and delicious cuisine make it a destination that leaves a lasting impression."
             }
+            <br />
+            <br />
+            Click to go back.
           </span>
         </div>
         <div className="frame-2-1-248640 pos-abs" id="id-717">
           <div className="drag-me-up-1-516992 pos-abs" id="id-716">
-            <span className="drag-me-up-1-516992-0">{"Drag Me Up"}</span>
+            <span className="drag-me-up-1-516992-0">{"CLICK HERE"}</span>
           </div>
         </div>
         <div className="header-1-549668 pos-abs" id="id-714">

@@ -4,8 +4,8 @@ import Flower from "./components/Flower/Flower.jsx";
 import CubeBg from "./components/CoolCubeBg/CubeBg.jsx";
 import Loader from "./components/Loader/Loader.jsx";
 import HeroDragSection from "./components/HeroDragSection/HeroDragSection.jsx";
-import RoboLoader from "./components/RoboLoader/RoboLoader.jsx";
-import TTLoader from "./components/TTloader.jsx/tt.jsx";
+// import RoboLoader from "./components/RoboLoader/RoboLoader.jsx";
+// import TTLoader from "./components/TTloader.jsx/tt.jsx";
 import { default as StairwayToHeaven } from "./components/StairwayToHeaven/Component.jsx";
 import { default as NikeCard } from "./components/NikeCard/Component";
 import { default as TestimonialCard } from "./components/TestimonialCard/Component";
@@ -32,6 +32,10 @@ function App() {
 
         <br />
 
+        <h2>Animated Hero Section</h2>
+        <HeroDragSection />
+        <br />
+
         <h2>Stairway to Heaven Animation</h2>
         <StairwayToHeaven width={350} />
 
@@ -43,7 +47,7 @@ function App() {
         <br />
 
         <br />
-        <h2>Dualite Logo Animation</h2>
+        <h2>Dualite Logo</h2>
         <DualiteLogoAnim />
 
         <br />
@@ -55,11 +59,6 @@ function App() {
 
         <h2>Cool Cube Background Animation</h2>
         <CubeBg />
-
-        <br />
-
-        <h2>Drag Hero Animation</h2>
-        <HeroDragSection />
 
         <br />
 
