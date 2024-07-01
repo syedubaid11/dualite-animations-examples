@@ -26,10 +26,7 @@ const Component = ({
   }, [ref]);
 
   return (
-    <div
-      className="wrapper-div-11092840 relative overflow-hidden m-auto p-[0px] box-border"
-      ref={ref}
-    >
+    <div className="wrapper-div-11092840 relative overflow-hidden m-auto p-[0px] box-border" ref={ref}>
       <div className=" absolute w-[100%] h-[100%] top-[0%] left-[0%] opacity-[1] z-[1]  rotate-[0deg]   overflow-hidden rounded-tl-[16.666664123535156px] rounded-tr-[16.666664123535156px] rounded-br-[16.666664123535156px] rounded-bl-[16.666664123535156px] bg-[#ffffffff]  ">
         <img
           src={`${image1}`}
@@ -68,7 +65,7 @@ const Component = ({
               <span className="c-9770-11092844-0 ">{text2}</span>
             </div>
           </div>
-          <div className=" absolute w-[34.72%] h-[35.83%] top-[32.92%] left-[60.49%] opacity-[1] z-[1]  rotate-[0deg]   rounded-tl-[3.3333330154418945px] rounded-tr-[3.3333330154418945px] rounded-br-[3.3333330154418945px] rounded-bl-[3.3333330154418945px] box-border border-l-[1.6666665077209473px] border-l-[#ffffffff] border-r-[1.6666665077209473px] border-r-[#ffffffff] border-t-[1.6666665077209473px] border-t-[#ffffffff] border-b-[1.6666665077209473px] border-b-[#ffffffff]  ">
+          <div className=" absolute w-[35.72%] h-[35.83%] top-[32.92%] left-[60.49%] opacity-[1] z-[1]  rotate-[0deg]   rounded-tl-[3.3333330154418945px] rounded-tr-[3.3333330154418945px] rounded-br-[3.3333330154418945px] rounded-bl-[3.3333330154418945px] box-border border-l-[1.6666665077209473px] border-l-[#ffffffff] border-r-[1.6666665077209473px] border-r-[#ffffffff] border-t-[1.6666665077209473px] border-t-[#ffffffff] border-b-[1.6666665077209473px] border-b-[#ffffffff]  ">
             <div className=" absolute w-[74.87%] h-[33.16%] top-[33.72%] left-[12.8%] opacity-[1] z-[0]  rotate-[0deg]   text-center leading-[0px]  ">
               <span className="add-to-cart-11092917-0 ">{text3}</span>
             </div>

@@ -45,12 +45,12 @@ function App() {
         }}
       >
         <h2>Nike Carosel</h2>
-        <NikeCarousel width={350} />
+        <NikeCarousel width={400} />
 
         <br />
 
         <h2>Nike Card</h2>
-        <NikeCard width={350} />
+        <NikeCard width={400} />
 
         <br />
 
