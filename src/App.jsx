@@ -4,8 +4,8 @@ import Flower from "./components/Flower/Flower.jsx";
 import CubeBg from "./components/CoolCubeBg/CubeBg.jsx";
 import Loader from "./components/Loader/Loader.jsx";
 import HeroDragSection from "./components/HeroDragSection/HeroDragSection.jsx";
-// import RoboLoader from "./components/RoboLoader/RoboLoader.jsx";
-// import TTLoader from "./components/TTloader.jsx/tt.jsx";
+import RoboLoader from "./components/RoboLoader/RoboLoader.jsx";
+import TTLoader from "./components/TTloader.jsx/tt.jsx";
 import { default as StairwayToHeaven } from "./components/StairwayToHeaven/Component.jsx";
 import { default as NikeCard } from "./components/NikeCard/Component";
 import { default as TestimonialCard } from "./components/TestimonialCard/Component";
@@ -52,26 +52,26 @@ function App() {
 
         <br />
 
-        <h2>Flower Animation</h2>
-        <Flower />
+        {/* <h2>Flower Animation</h2>
+        <Flower /> */}
 
         <br />
-
+{/* 
         <h2>Cool Cube Background Animation</h2>
-        <CubeBg />
+        <CubeBg /> */}
 
         <br />
 
-        {/* <h2>Robo Loader Animation</h2>
+        <h2>Robo Loader Animation</h2>
         <RoboLoader />
-        <br /> */}
+        <br />
 
         <h2>Loader Animation</h2>
         <Loader />
 
-        {/* <br />
+        <br />
 
-        <h2>Table Tenis Loader Animation</h2>
+        {/* <h2>Table Tenis Loader Animation</h2>
         <TTLoader /> */}
 
         <br />

@@ -15,6 +15,7 @@ const RoboLoader = () => {
           <div className="rectangle-4-1-5604 pos-abs" id="id-54101074"></div>
         </div>
         <div className="frame-11-1-82656 pos-abs" id="id-54101075">
+          {/* the rotating ball*/}
           <div className="group-1-1-498636 pos-abs" id="id-54101076">
             <div className="ellipse-6-1-350370 pos-abs" id="id-54101077"></div>
             <div className="ellipse-7-1-103986 pos-abs" id="id-54101078"></div>

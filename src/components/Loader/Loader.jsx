@@ -19,14 +19,17 @@ const Loader = () => {
             <div className="loader-objects-1-816611 pos-abs" id="id-033">
               <div className="shape-11-1-82628 pos-abs" id="id-I033_023">
                 <div className="m-1-863214 pos-abs" id="id-I033_023_1650">
+                  {/* M letter */}
                   <div
                     className="nodeBg-I033_023_1650 pos-abs pos-init fill-parent bg-contain bg-no-repeat image-div"
                     id="id-bg-I033_023_1650"
-                  ></div>
+                  >
+                  </div>
                 </div>
               </div>
               <div className="shape-13-1-195800 pos-abs" id="id-I033_025">
                 <div className="c-1-538356 pos-abs" id="id-I033_025_1774">
+                  {/* C letter */}
                   <div
                     className="nodeBg-I033_025_1774 pos-abs pos-init fill-parent bg-contain bg-no-repeat image-div"
                     id="id-bg-I033_025_1774"
@@ -35,6 +38,7 @@ const Loader = () => {
               </div>
               <div className="shape-14-1-5256 pos-abs" id="id-I033_026">
                 <div className="r-1-412984 pos-abs" id="id-I033_026_1805">
+                  {/* r letter */}
                   <div
                     className="nodeBg-I033_026_1805 pos-abs pos-init fill-parent bg-contain bg-no-repeat image-div"
                     id="id-bg-I033_026_1805"
@@ -43,6 +47,7 @@ const Loader = () => {
               </div>
               <div className="shape-15-1-73829 pos-abs" id="id-I033_027">
                 <div className="o-1-110986 pos-abs" id="id-I033_027_1836">
+                  {/* o letter */}
                   <div
                     className="nodeBg-I033_027_1836 pos-abs pos-init fill-parent bg-contain bg-no-repeat image-div"
                     id="id-bg-I033_027_1836"
@@ -51,6 +56,7 @@ const Loader = () => {
               </div>
               <div className="shape-16-1-45486 pos-abs" id="id-I033_028">
                 <div className="s-1-259141 pos-abs" id="id-I033_028_1867">
+                  {/* s letter */}
                   <div
                     className="nodeBg-I033_028_1867 pos-abs pos-init fill-parent bg-contain bg-no-repeat image-div"
                     id="id-bg-I033_028_1867"
@@ -59,6 +65,7 @@ const Loader = () => {
               </div>
               <div className="shape-17-1-365310 pos-abs" id="id-I033_029">
                 <div className="o2-1-197769 pos-abs" id="id-I033_029_1898">
+                  {/* o letter */}
                   <div
                     className="nodeBg-I033_029_1898 pos-abs pos-init fill-parent bg-contain bg-no-repeat image-div"
                     id="id-bg-I033_029_1898"
@@ -68,6 +75,7 @@ const Loader = () => {
               <div className="shape-10-1-33768 pos-abs" id="id-I033_022">
                 <div className="logo-1-291828 pos-abs" id="id-I033_022_1535">
                   <div className="vector-1-81840 pos-abs" id="id-I033_022_1536">
+                   {/* first square in logo */}
                     <div
                       className="nodeBg-I033_022_1536 pos-abs pos-init fill-parent bg-contain bg-no-repeat image-div"
                       id="id-bg-I033_022_1536"
@@ -77,6 +85,7 @@ const Loader = () => {
                     className="vector-2-369360 pos-abs"
                     id="id-I033_022_1537"
                   >
+                    {/* second square in n logo */}
                     <div
                       className="nodeBg-I033_022_1537 pos-abs pos-init fill-parent bg-contain bg-no-repeat image-div"
                       id="id-bg-I033_022_1537"
@@ -86,6 +95,7 @@ const Loader = () => {
                     className="vector-3-430274 pos-abs"
                     id="id-I033_022_1538"
                   >
+                    {/* third square in logo */}
                     <div
                       className="nodeBg-I033_022_1538 pos-abs pos-init fill-parent bg-contain bg-no-repeat image-div"
                       id="id-bg-I033_022_1538"
@@ -95,6 +105,7 @@ const Loader = () => {
                     className="vector-4-143640 pos-abs"
                     id="id-I033_022_1539"
                   >
+                    {/* fourth square in logo */}
                     <div
                       className="nodeBg-I033_022_1539 pos-abs pos-init fill-parent bg-contain bg-no-repeat image-div"
                       id="id-bg-I033_022_1539"
@@ -105,6 +116,7 @@ const Loader = () => {
               <div className="shape-12-1-10794 pos-abs" id="id-I033_024">
                 <div className="i-1-201958 pos-abs" id="id-I033_024_1701">
                   <div className="vector-1-14664 pos-abs" id="id-I033_024_1702">
+                    {/* i but not the dot */}
                     <div
                       className="nodeBg-I033_024_1702 pos-abs pos-init fill-parent bg-contain bg-no-repeat image-div"
                       id="id-bg-I033_024_1702"
@@ -114,6 +126,7 @@ const Loader = () => {
                     className="vector-2-204978 pos-abs"
                     id="id-I033_024_1703"
                   >
+                    {/* dot of i */}
                     <div
                       className="nodeBg-I033_024_1703 pos-abs pos-init fill-parent bg-contain bg-no-repeat image-div"
                       id="id-bg-I033_024_1703"
@@ -124,12 +137,14 @@ const Loader = () => {
               <div className="shape-18-1-497280 pos-abs" id="id-I033_030">
                 <div className="ft-1-7588 pos-abs" id="id-I033_030_1940">
                   <div className="t-1-733810 pos-abs" id="id-I033_030_1941">
+                    {/* t letter */}
                     <div
                       className="nodeBg-I033_030_1941 pos-abs pos-init fill-parent bg-contain bg-no-repeat image-div"
                       id="id-bg-I033_030_1941"
                     ></div>
                   </div>
                   <div className="f-1-500320 pos-abs" id="id-I033_030_1942">
+                    {/* f letter */}
                     <div
                       className="nodeBg-I033_030_1942 pos-abs pos-init fill-parent bg-contain bg-no-repeat image-div"
                       id="id-bg-I033_030_1942"

@@ -865,11 +865,11 @@
     left: 37.79%;
     opacity: 1;
     z-index: 2;
-    transform: rotate(90deg);
+    transform: rotate(360deg);
   }
 }
 .animationClass-54101071 {
-  animation: animation-54101071 0.5s linear 0s normal forwards;
+  animation: animation-54101071 2s linear 0s infinite forwards;
 }
 @keyframes animation-54101114 {
   from {
@@ -1177,11 +1177,11 @@
     left: 50.13%;
     opacity: 1;
     z-index: 3;
-    transform: rotate(90deg);
+    transform: rotate(360deg);
   }
 }
 .animationClass-54101073 {
-  animation: animation-54101073 0.5s linear 0s normal forwards;
+  animation: animation-54101073 2s linear 0s infinite forwards;
 }
 @keyframes animation-54101116 {
   from {
@@ -1250,7 +1250,7 @@
   }
 }
 .animationClass-54101202 {
-  animation: animation-54101202 0.5s linear 0s normal forwards;
+  animation: animation-54101202 2s linear 0s normal forwards;
 }
 @keyframes animation-54101245 {
   from {
@@ -1489,11 +1489,11 @@
     left: 8.67%;
     opacity: 1;
     z-index: 4;
-    transform: rotate(90deg);
+    transform: rotate(360deg);
   }
 }
 .animationClass-54101075 {
-  animation: animation-54101075 0.5s linear 0s normal forwards;
+  animation: animation-54101075 2s linear 0s infinite forwards;
 }
 @keyframes animation-54101118 {
   from {
